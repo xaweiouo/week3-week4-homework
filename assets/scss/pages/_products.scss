@@ -1,0 +1,35 @@
+.products-container{
+    max-width: 1296px;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.breadcrumb-item + .breadcrumb-item::before{
+    content: '/';
+    padding: 0 12px;
+    color: $neutral-300;
+    font-weight: 700;
+}
+
+.breadcrumb-item{
+    display: flex;
+    font-weight: 500;
+}
+
+@media(max-width:576px){
+    .breadcrumb-item + .breadcrumb-item::before{
+    content: '/';
+    padding: 0 8px;
+    color: $neutral-300;
+    font-weight: 700;
+    }
+}

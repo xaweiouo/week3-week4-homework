@@ -1,0 +1,424 @@
+// @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+// .noto-sans-tc {
+//   font-family: "Noto Sans TC", sans-serif;
+//   font-optical-sizing: auto;
+//   font-weight:500;
+//   font-style: normal;
+//   color: #212529;
+//   line-height: 1.5;
+//   letter-spacing: 0.05em;
+// }
+
+// :root{
+//     --Primary-100:#F5FEE7;
+//     --Primary-400:#57A203;
+
+//     --Neutral-0:#FFFFFF;
+//     --Neutral-100:#F8F9FA;
+//     --Neutral-300:#DEE2E6;
+//     --Neutral-600:#6C757D;
+//     --Neutral-900:#212529;
+
+// }
+
+// .text-color-green{
+//     color: $primary-400;
+// }
+
+// .allproducts-container{
+//     max-width: 1296px;
+//     margin: 17px auto 48px;
+//     padding: 0px 12px;
+// }
+
+// nav{
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+// }
+
+// .logo-and-link{
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+    
+
+// }
+
+// .logo-and-link ul li a{
+//     margin-right: 40px;
+// }
+
+// .logo{
+//     background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/e1ad10bd2260f80c5f65be5bfc5042790a261115/2025-week1/logo.svg);
+//     width: 129px;
+//     height: 48px;
+//     background-repeat: no-repeat;
+//     display: block;
+//     font-size: 0px;
+//     /* text-indent: 101%;
+//     white-space: wrap;
+//     overflow: hidden; */
+//     padding: 8px 12px;
+//     margin-right: 48px;
+// }
+
+
+
+// .logo-and-link ul{
+//     display: flex;
+//     justify-content: flex-start;
+//     align-items: center;
+// }
+
+// .icon-person img{
+//     width: 48px;
+//     padding: 15px;   
+// }
+
+// .allproducts{
+//     margin: 32px 0px 24px 0px;
+// }
+
+// .breadcrumb{
+//     display: flex;
+//     margin-bottom: 24px;
+// }
+
+// .breadcrumb a{
+//     margin-right: 12px;
+//     color: #6C757D;
+// }
+
+// .breadcrumb span{
+//     margin-right: 12px;
+//     color: #DEE2E6;
+// }
+
+// .allproducts-title{
+//     font-weight: 700;
+//     font-size: 28px;
+//     line-height: 1.2;
+// }
+
+// section{
+//     display: flex;
+//     justify-content: space-between;
+// }
+
+// aside{
+//     width: 15.12346%;
+// }
+
+// aside li{
+//     padding: 12px 0px;
+// }
+
+// .product-list{
+//     width: 83.02469%;
+//     display: flex;
+//     flex-wrap: wrap;
+//     margin:0px -12px;
+//     justify-content: center;
+// }
+
+// .card{
+//     width: 33.33333%;
+//     padding:0px 12px 48px;
+    
+// }
+
+// .card-title{
+//     font-weight: 700;
+//     line-height: 1.2;
+//     margin-bottom: 4px;
+// }
+
+// .product-list img{
+//     width: 100%;
+//     margin-bottom: 12px;
+// }
+
+
+// .pagination{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+// .pagination ul{
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+// }
+
+// .pagination ul a{
+//     display: block;
+//     font-weight: 400;
+//     padding: 8px 15px;
+//     margin: 0px 4px;
+// }
+
+// .select{
+//     background-color: #C0FA73;
+// }
+
+// .arrow{
+//     font-weight: 400;
+//     font-size: 20px;
+//     padding: 10px;
+//     margin: 0px 8px;
+// }
+
+// .banner{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     background-color:#E8FEC5;
+// }
+
+// .banner p{
+//     font-weight: 700;
+//     font-size: 24px;
+//     line-height: 1.2;
+//     letter-spacing: 0.05em;
+//     margin: 12px;
+
+// }
+
+// .banner a{
+//     padding: 12px 24px;
+//     color: #FFFFFF;
+//     background-color: #212529;
+//     border-radius: 5px;
+//     margin: 24px 12px;
+// }
+
+// footer{
+//     background-color: #F8F9FA;
+// }
+
+// .footer-logo-link{
+//     max-width: 1296px;
+//     margin: 0 auto;
+//     padding-top: 64px;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+// }
+
+// .footer-logo-link ul{
+//     display: flex;
+// }
+
+// .footer-logo-link ul a{
+//     padding: 12px 0px;
+//     margin-left: 40px;
+// }
+
+// .copyright{
+//     max-width: 1296px;
+//     margin: 0 auto;
+//     text-align: center;
+//     padding: 32px 0px 64px;
+//     border-top: #DEE2E6 1px solid;
+// }
+
+// .copyright p{
+//     color: #6C757D;
+// }
+
+
+// /*productdetail*/
+// .productdetail-container{
+//     max-width: 1296px;
+//     margin: 17px auto 88px;
+//     padding: 0px 12px;
+// }
+
+// .img-and-info{
+//     display: flex;
+//     width: 100%;
+//     margin: 64px -12px 121.5px;
+// }
+
+// .product-image{
+//     width: 58.33333%;
+//     padding: 0px 12px;
+//     display: flex;
+//     flex-wrap: wrap;
+// }
+
+// .product-info{
+//     width: 41.66667%;
+//     padding: 0px 12px;
+
+// }
+
+// .product-image .img{
+//     width: 50%;
+//     padding: 4px;
+    
+// }
+
+// .product-image .img img{
+//     width: 100%;
+// }
+
+// h1{
+//     font-weight: 700;
+//     font-size: 32px;
+//     line-height: 1.2;
+//     letter-spacing: 0.05em;
+//     margin: 12px 0px 16px;
+// }
+
+// .price{
+//     display: flex;
+//     align-items: center;
+//     margin-bottom: 16px;
+// }
+
+// .price-after{
+//     font-weight: 700;
+//     font-size: 20px;
+//     line-height: 1.2;
+//     letter-spacing: 0.05em;
+//     margin-right: 8px;
+// }
+
+// .price-before{
+//     font-weight: 400;
+//     font-size: 14px;
+//     color: #ADB5BD;
+//     text-decoration: line-through;
+// }
+
+// .description{
+//     margin-bottom: 12px;
+// }
+
+// .spec{
+//     margin: 32px 0px 48px;
+    
+// }
+
+// .spec-title{
+//     font-weight: 400;
+//     margin-bottom: 8px;
+// }
+
+// .color-option{
+//     display: flex;
+//     margin: 0px -4px 32px;
+//     text-align: center;
+// }
+    
+    
+
+// .option{
+//     width: 13.48315%;
+//     padding: 0px 4px;
+// }
+
+// .option img{
+//     width: 100%;
+// }
+
+// .option p{
+//     color: #6C757D;
+// }
+
+// .size{
+//     display: flex;
+//     flex-wrap: wrap;
+// }
+
+// .size p{
+//     padding: 12px 24px;
+//     border: 1px solid #DEE2E6;
+//     border-radius: 5px;
+//     margin-right:8px; 
+//     margin-bottom: 8px;
+// }
+
+// .no{
+//     color: #DEE2E6;
+// }
+
+// .quantity{
+//     font-weight: 400;
+//     font-size: 14px;
+//     letter-spacing: 0.05em;
+//     color: #D74F4F;
+// }
+
+// .btn-wrapper{
+//     display: flex;
+//     justify-content: space-between;
+//     margin: 0px -4px 44px;
+// }
+
+// .btn-wrapper .a{
+//     width: 50%;
+//     display: flex;
+//     padding: 0px 4px;
+// }
+
+// .btn-wrapper a{
+//     width: 100%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     border: 1px solid #212529;
+//     border-radius: 5px;
+//     padding: 12px 0px;
+// }
+
+// .btn-wrapper img{
+//     display: inline-block;
+//     margin-right: 8px;
+// }
+
+
+
+// .bag{
+//     background-color: #212529;
+//     color: #FFFFFF;
+// }
+
+// .accordion-item{
+//     padding-bottom: 12px;
+//     border-bottom: 1px solid #DEE2E6;
+//     margin-bottom: 12px;
+// }
+
+// .accordion-p{
+//     font-weight: 400;
+//     color:#6C757D;
+// }
+
+// .may-like-title{
+//     font-weight: 700;
+//     font-size: 24px;
+//     line-height: 1.2;
+//     margin-bottom: 25.5px;
+// }
+
+// .you-may-like{
+//     display: flex;
+//     margin: 0px -12px;
+// }
+
+// .may-like-card{
+//     width: 25%;
+//     padding: 0px 12px;
+// }
+
+// .may-like-card img{
+//     width: 100%;
+//     margin-bottom: 12px;
+// }
