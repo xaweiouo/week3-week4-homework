@@ -9,12 +9,12 @@
   <body>
     <%- include('./layout/header'); -%>
 
-    <div class="header d-flex align-center mb-64">
-        <div class="ml-200">
-            <p class="text-white fz-64 fw-700 lh-1_2">URBNSTEP</p>
-            <p class="text-white fz-28 fw-700 lh-1_2 mb-48">Your Step, Your Statement</p>
+    <div class="header mb-64 d-md-flex justify-content-md-center">
+        <div class="ml-200 ml-md-0">
+            <p class="text-white fz-64 fw-700 lh-1_2 fz-md-48">URBNSTEP</p>
+            <p class="text-white fz-28 fw-700 lh-1_2 mb-48 h5-md mb-md-32">Your Step, Your Statement</p>
             <button type="button"
-                class="btn bg-primary-300 text-neutral-900  fw-500 border-radius-4 pt-12 pb-12 pr-24 pl-24 pt-sm-8 pb-sm-8 pr-sm-16 pl-sm-16">
+                class="btn bg-primary-300 fz-16 text-neutral-900  fw-500 border-radius-4 pt-12 pb-12 pr-24 pl-24">
                 立即選購
             </button>
         </div>
@@ -26,7 +26,7 @@
         <span class="fz-32 fw-700 lh-1_2">新品上市</span>
     </h1>
 
-    <div class="index-container pb-128">
+    <div class="index-container pb-64">
         <div class="row row-md">
             <div class="col-6 mb-40 col-md-2">
                 <a href="#">
@@ -66,43 +66,70 @@
         </div>
     </div>
 
-    <div class="index-container pb-112">
-        <h2 class="h2 mb-16 pt-5 pb-5">熱銷補貨</h2>
+    <div class="index-container pt-64 pb-64 pt-md-40 pb-md-40">
+        <h2 class="h2 mb-16 pt-5 pb-5 h4-md">熱銷補貨</h2>
 
-        <div class="row row-md">
-            <div class="col-3 mb-40 col-md-2">
+        <div class="row flex-md-nowrap overflow-x-md-auto product-md-row">
+            <div class="col-3 mb-40 product-md-col">
                 <a href="#" class="p-relative">
-                    <p class="p-absolute pt-8 pb-8 pr-12 pl-12 text-sm fw-500 bg-primary-100">人氣 No.1</p>
+                    <p class="p-absolute pt-8 pb-8 pr-12 pl-12 fz-14 fw-500 text-primary-400 bg-primary-100">人氣 No.1</p>
                     <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/image.png?raw=true"
                         alt="">
                 </a>
             </div>
 
-            <div class="col-3 mb-40 col-md-2">
-                <a href="#">
+            <div class="col-3 mb-40 product-md-col">
+                <a href="#" class="p-relative">
+                    <p class="p-absolute pt-8 pb-8 pr-12 pl-12 fz-14 fw-500 text-primary-400 bg-primary-100">人氣 No.1</p>
                     <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/image.png?raw=true"
-                        alt="" class="mb-12">
+                        alt="">
                 </a>
             </div>
 
-            <div class="col-3 mb-40 col-md-2">
-                <a href="#">
+            <div class="col-3 mb-40 product-md-col">
+                <a href="#" class="p-relative">
+                    <p class="p-absolute pt-8 pb-8 pr-12 pl-12 fz-14 fw-500 text-primary-400 bg-primary-100">人氣 No.1</p>
                     <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/image.png?raw=true"
-                        alt="" class="mb-12">
+                        alt="">
                 </a>
             </div>
 
-            <div class="col-3 mb-40 col-md-2">
-                <a href="#">
+            <div class="col-3 mb-40 product-md-col">
+                <a href="#" class="p-relative">
+                    <p class="p-absolute pt-8 pb-8 pr-12 pl-12 fz-14 fw-500 text-primary-400 bg-primary-100">人氣 No.1</p>
                     <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/image.png?raw=true"
-                        alt="" class="mb-12">
+                        alt="">
                 </a>
             </div>
         </div>
     </div>
+    
+    <div class="pt-48 pb-48 pt-md-24 pb-md-24">
+        <div class="section-sale">
+            <div class="d-md-flex d-md-flex-col gap-md-8">
+                <span class="text-white fz-48 fw-700 mr-24 h2-md">URBNSTEP</span>
+                <span class="text-primary-300 fz-40 fw-700 mr-24 h3-md">x</span>
+                <span class="text-white fz-48 fw-700 h2-md">Kevin Chen</span>
+            </div>
 
-    <div class="section-sale mb-112">
+            <p class="text-white fz-32 fw-700 mt-16 mb-32 h5-md mb-md-24">跨界聯名，限量發售</p>
 
+            <div class="d-md-flex d-md-flex-col gap-md-4">
+                <span class="text-neutral-500 fz-20 fz-md-16">新銳漫畫家 Kevin Chen 親自操刀設計</span>
+                <span class="text-neutral-500 fz-20 d-md-none">，</span>
+                <span class="text-neutral-500 fz-20 fz-md-16">街頭能量全面引爆！</span>
+            </div>
+                
+
+            <button type="button"
+                class="d-block m-auto btn bg-primary-300 fz-16 text-neutral-900 fw-500 border-radius-4 pt-12 pb-12 pr-24 pl-24 mt-48 mt-md-32">
+                立即搶購
+            </button>
+            
+            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/59f6973c658c94689331eea2d93ef4088a0029ee/2025-week3-4/star.svg" alt="" class="star-img">
+
+            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/59f6973c658c94689331eea2d93ef4088a0029ee/2025-week3-4/sparkle.svg" alt="" class="sparkle-img">
+        </div>
     </div>
 
     <div class="index-container pb-128">
@@ -111,7 +138,7 @@
         <div class="row row-md">
             <div class="col-3 mb-40 col-md-2">
                 <a href="#" class="p-relative">
-                    <div class="w-full h-full p-absolute text-sm fw-500 bg-black o-40">
+                    <div class="w-full h-full p-absolute fz-14 fw-500 bg-black o-40">
                         <p>URBN RUNNER</p>
                         <p>慢跑系列</p>
                     </div>

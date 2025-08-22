@@ -1,10 +1,3 @@
-body{
-    font-family: "Noto Sans TC", sans-serif;
-    line-height: 1.5;
-    letter-spacing: 0.05em;
-    color: $neutral-900;
-}
-
 .w-full{
     width: 100%;
 }
@@ -26,6 +19,10 @@ body{
 
 .d-flex{
     display:flex;
+}
+
+.d-block{
+    display: block;
 }
 
 .d-none{
@@ -59,20 +56,10 @@ body{
     position: relative;
 }
 
-img{
-    display: block;
-    max-width:100%;
-}
-
 .btn{
     cursor: pointer;
     border: none;
     background-color: transparent;
-}
-
-a{
-    display: block;
-    color: $neutral-900;
 }
 
 .bg-neutral-100{
@@ -99,7 +86,7 @@ a{
     background-color: $black;
 }
 
-o-40{
+.o-40{
     opacity: 0.4;
 }
 
@@ -227,21 +214,36 @@ o-40{
     font-weight: 700;
 }
 
-.text-sm{
+.text-lg{
+    font-size: 20px;
+}
+
+.fz-14{
     font-size: 14px;
-    font-weight: 400;
+}
+
+.fz-16{
+    font-size: 16px;
+}
+
+.fz-20{
+    font-size: 20px;
 }
 
 .fz-28{
     font-size: 28px;
 }
 
-.fz-48{
-    font-size: 48px;
-}
-
 .fz-32{
     font-size: 32px;
+}
+
+.fz-40{
+    font-size: 40px;
+}
+
+.fz-48{
+    font-size: 48px;
 }
 
 .fz-64{
@@ -256,6 +258,10 @@ o-40{
     line-height: 1.2;
 }
 
+.fw-400{
+    font-weight: 400;
+}
+
 .fw-500{
     font-weight: 500;
 }
@@ -268,8 +274,16 @@ o-40{
     color: $neutral-0;
 }
 
+.text-primary-300{
+    color: $primary-300;
+}
+
 .text-primary-400{
     color: $primary-400;
+}
+
+.text-neutral-500{
+    color: $neutral-500;
 }
 
 .text-neutral-600{
@@ -289,6 +303,11 @@ text-decoration: none;
     margin: 0 auto;
     padding-left: 12px;
     padding-right: 12px;
+}
+
+.m-auto{
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .mr--110{
@@ -339,8 +358,16 @@ text-decoration: none;
     margin-top: 64px;
 }
 
+.mt-48{
+    margin-top: 48px;
+}
+
 .mt-32{
     margin-top: 32px;
+}
+
+.mt-16{
+    margin-top: 16px;
 }
 
 .mb-128{
@@ -397,6 +424,10 @@ text-decoration: none;
 
 .pt-64{
     padding-top: 64px;
+}
+
+.pt-48{
+    padding-top: 48px;
 }
 
 .pt-32{
@@ -491,6 +522,10 @@ text-decoration: none;
     padding-right: 15px;
 }
 
+.pr-24{
+    padding-right: 24px;
+}
+
 
 .pl-8{
     padding-left: 8px;
@@ -520,15 +555,20 @@ text-decoration: none;
 }
 
 @media(max-width:767px){
-    .header{
-        height: 240px;
-        background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true);
+
+    .overflow-x-md-auto{
+        overflow: auto;
     }
 
-    .story-container-md{
-    margin: 0 auto;
-    padding-left: 6px;
-    padding-right: 6px;
+    .product-md-row{
+        margin-right: -8px;
+        margin-left: -8px;
+    }
+
+    .product-md-col{
+        min-width: 316px;
+        padding-right: 8px;
+        padding-left: 8px;
     }
 
     .row-md{
@@ -564,11 +604,30 @@ text-decoration: none;
         display: none;
     }
     
+    .d-md-flex{
+        display: flex;
+    }
+
     .d-md-block{
         display: block;
     }
     
-    
+    .d-md-flex-col{
+        flex-direction: column;
+    }
+
+    .flex-md-nowrap{
+        flex-wrap: nowrap;
+    }
+
+    .justify-content-md-center{
+        justify-content: center;
+    }
+
+    .h2-md{
+        font-size: 32px;
+    }
+
     .h3-md{
         font-size: 28px;
     }
@@ -585,14 +644,32 @@ text-decoration: none;
         font-size: 16px;
     }
 
+    .fz-md-16{
+        font-size: 16px;
+    }
+
     .fz-md-20{
         font-size: 20px;
     }
 
-    
+    .fz-md-48{
+        font-size: 48px;
+    }
+
+    .text-align-md-center{
+        text-align: center;
+    }    
 
     .text-aligh-l{
         text-align: left;
+    }
+
+    .gap-md-4{
+        gap: 4px;
+    }
+
+    .gap-md-8{
+        gap: 8px;
     }
 
     .p-md-24{
@@ -621,21 +698,39 @@ text-decoration: none;
         padding-top: 12px;
     }
 
+    .pt-md-24{
+        padding-top: 24px;
+    }
+
     .pt-md-32{
         padding-top: 32px;
     }
 
+    .pt-md-40{
+        padding-top: 40px;
+    }
 
     .pb-md-12{
         padding-bottom: 12px;
+    }
+    .pb-md-24{
+        padding-bottom: 24px;
     }
 
     .pb-md-32{
         padding-bottom: 32px;
     }
 
+    .pb-md-40{
+        padding-bottom: 40px;
+    }
+
     .ml-md--6{
         margin-left: -6px;
+    }
+
+    .ml-md-0{
+        margin-left: 0;
     }
 
     .mr-md--6{
@@ -650,12 +745,20 @@ text-decoration: none;
         margin-right: 16px;
     }
 
+    .mt-md-32{
+        margin-top: 32px;
+    }
+
     .mb-md-4{
         margin-bottom: 4px;
     }
 
     .mb-md-8{
         margin-bottom: 8px;
+    }
+
+    .mb-md-24{
+        margin-bottom: 24px;
     }
 
     .mb-md-32{
