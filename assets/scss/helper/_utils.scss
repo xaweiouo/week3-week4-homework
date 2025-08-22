@@ -45,11 +45,14 @@
     flex-wrap: wrap;
 }
 
+.z-index-30{
+    z-index:30;
+}
+
 .p-absolute{
     position: absolute;
     top: 0px;
     left: 0px;
-    z-index: 30;
 }
 
 .p-relative{
@@ -612,6 +615,10 @@ text-decoration: none;
         display: block;
     }
     
+    .d-md-flex-row{
+        flex-direction: row;
+    }
+
     .d-md-flex-col{
         flex-direction: column;
     }
