@@ -3,7 +3,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 400px;
+    // height: 400px;
+    padding: 151px 0;
     /* text-align: center; */
     display: flex;
     align-items: center;
@@ -22,10 +23,15 @@ a{
 }
 
 @media(max-width:767px){
-        
+    
+    .story-header{
+        background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true);
+        padding: 87px 0;
+    }
+
     .story-container-md{
     margin: 0 auto;
-    padding-left: 6px;
-    padding-right: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
     }
 }
